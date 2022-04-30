@@ -376,7 +376,8 @@ Sys.Timers = [];
 
 Sys.Log.info('Loading... DB Connection');
 // Mongodb Connection
-var dbURI = 'mongodb+srv://ludofirst:kargan82@ludo.gyzkr.mongodb.net/teenpatti';
+//var dbURI = 'mongodb+srv://ludofirst:kargan82@ludo.gyzkr.mongodb.net/teenpatti';
+var dbURI = "mongodb+srv://john:9UmSVdNkiT4nJRzB@cluster0.vdojp.mongodb.net/teenpatti?retryWrites=true&w=majority";
 
 // if(Sys.Config.Database.connectionType == 'local'){
   // dbURI = 'mongodb://'+Sys.Config.Database[Sys.Config.Database.connectionType].mongo.host+':'+Sys.Config.Database[Sys.Config.Database.connectionType].mongo.port+'/'+Sys.Config.Database[Sys.Config.Database.connectionType].mongo.database;
